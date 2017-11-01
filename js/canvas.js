@@ -1,19 +1,18 @@
-var c = document.getElementById("demoCanvas");
+var c = document.getElementById("demoCanvas1");
 var ctx = c.getContext("2d");
-ctx.moveTo(0,0);
-ctx.lineTo(150,0);
-ctx.lineTo(150,150);
-ctx.lineTo(0,150);
-ctx.lineTo(0,0);
-ctx.fillStyle = "white";
+var d = document.getElementById("demoCanvas2");
+var dtx = d.getContext("2d");
+ctx.fillStyle = "#CC100B";
 ctx.fillRect(0,0,150,150);
-ctx.stroke();
+ctx.fillStyle = "#41ACFF";
+ctx.fillRect(150,40,190,210);
+ctx.fillStyle = "#4077bc";
+ctx.fillRect(340,40,150,110);
 
-ctx.moveTo(150,40);
-ctx.lineTo(300,40);
-ctx.lineTo(300,190);
-ctx.lineTo(0,190);
-ctx.lineTo(0,0);
-// ctx.fillStyle = "white";
-// ctx.fillRect();
-ctx.stroke();
+dtx.fillStyle = "#452259";
+dtx.fillRect(0,0,150,150);
+dtx.fillStyle = "#452259";
+dtx.fillRect(150,40,190,210);
+dtx.fillStyle = "#452259";
+dtx.fillRect(340,40,150,110);
+

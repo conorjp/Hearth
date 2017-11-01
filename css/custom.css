@@ -14,7 +14,6 @@
     margin-right: auto;
     margin-top: 2em;
 }
-/*@media only screen and (max-device-width: 1280px) and (min-device-width: 769px)
-.email-input {
-    width: 500px;
-}*/
+#demoCanvas {
+	/*border:1px solid #000000;*/
+}
