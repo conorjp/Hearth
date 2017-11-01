@@ -1,0 +1,19 @@
+/*!
+ * Hearth Website Custom Formatting
+ */
+#ventImage {
+	width: 350px;
+}
+
+.input-group {
+    display: flex;
+}
+.email-input {
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+#demoCanvas {
+	/*border:1px solid #000000;*/
+}
