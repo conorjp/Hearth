@@ -24,7 +24,7 @@
 
     <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-      #mc_embed_signup{background:black; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+      #mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
       /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
@@ -43,10 +43,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#comfort">Comfort</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Demo</a>
+              <a class="nav-link js-scroll-trigger" href="#control">Control</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#efficiency">Efficiency</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#signup">Signup</a>
@@ -66,7 +69,7 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <h1 class="brand-heading">Hearth</h1>
-              <p class="intro-text">Smarter Climate Control.</p>
+              <p class="intro-text">Rein<b>vent</b> Your Home</p>
               <a href="#about" class="btn btn-circle js-scroll-trigger">
                 <i class="fa fa-angle-double-down animated"></i>
               </a>
@@ -76,45 +79,54 @@
       </div>
     </header>
 
-    <!-- About Section -->
-    <section id="about" class="content-section text-center">
+    <!-- Comfort Section -->
+    <section id="comfort" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About Hearth</h2>
-            <p>Hearth is a new way to control your home's temperature. Rein<b>vent</b> your home.</p>
-            <img src="img/vent.png" id="ventImage">
+            <h2>Comfort</h2>
+            <!-- <canvas id="demoCanvas"></canvas> -->
+            <p>Normal heating systems don't ensure consistent heating throughout your house.
+              Hearth smart vents can direct heat to where it is needed.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Download Section -->
-    <!-- TODO: Change background image -->
-    <section id="download" class="content-section text-center">
+    <!-- Control Section -->
+    <section id="control" class="content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-          <h2>Demo</h2>
-          <!-- TODO: Add better description -->
+          <h2>Control</h2>
+          <p>You can put Hearth smart vents just in problem rooms or in every room in your home, 
+            ensuring the perfect temperature no matter what.</p>
+          <p>Connect them to your existing smart home products like Nest, EcoBee, or smarthome hub. 
+            Customize when and where you want heating.</p>
         </div>
+      </div>
+    </section>
+
+    <!-- Efficiency Section -->
+    <section id="efficiency" class="content-section text-center">
+      <div class="container">
         <div class="col-lg-8 mx-auto">
-          <canvas id="demoCanvas"></canvas>
+          <h2>Efficiency</h2>
+          <p>By intelligently moving heat through your home you can increase the efficiency of your heating, 
+            lowering your energy costs.</p>
         </div>
       </div>
     </section>
 
     <!-- Signup Section -->
-    <!-- TODO: Change background image -->
     <section id="signup" class="content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
+          <h2>Be notified when Hearth becomes available</h2>
           <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
             <form action="https://smarthearth.us17.list-manage.com/subscribe/post?u=8c740014837df35892243b66a&amp;id=cd0bf24c3b" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <h4><br>Be notified when Hearth becomes available</h4>
                 <div class="input-group email-input">
                   <!-- <label for="mce-EMAIL">Be notified when Hearth is available!</label> -->
-                  
                   <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
                   <div id="mce-responses" class="clear">
                     <div class="response" id="mce-error-response" style="display:none"></div>
@@ -133,7 +145,6 @@
     </section>
 
     <!-- Contact Section -->
-    <!-- TODO: Change to "Sign up for beta/prototype version" -->
     <section id="contact" class="content-section text-center">
       <div class="container">
         <div class="row">
