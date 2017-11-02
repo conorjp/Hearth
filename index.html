@@ -127,7 +127,7 @@
           <h2>Be notified when Hearth becomes available</h2>
           <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
-            <form action="https://smarthearth.us17.list-manage.com/subscribe/post?u=8c740014837df35892243b66a&amp;id=cd0bf24c3b" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="https://smarthearth.us17.list-manage.com/subscribe/post-json?u=8c740014837df35892243b66a&amp;id=cd0bf24c3b&c=?" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div class="input-group email-input">
                   <!-- <label for="mce-EMAIL">Be notified when Hearth is available!</label> -->
                   <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email" required>
@@ -137,9 +137,10 @@
                   </div>
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8c740014837df35892243b66a_cd0bf24c3b" tabindex="-1" value=""></div>
-                  <p></p>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn"></div>
+                  <!-- <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn"></div> -->
+                  <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
                 </div>
+                <p id="msg" class="msg"></p>
             </form>
             </div>
           <!--End mc_embed_signup-->
@@ -183,6 +184,8 @@
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
     <script src="js/canvas.js"></script>
+
+    <script src="js/subscribe.js"></script>
 
   </body>
 
