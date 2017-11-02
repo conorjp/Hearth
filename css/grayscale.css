@@ -31,7 +31,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   margin: 0 0 25px; }
-  @media (min-width: 768px) {
+  @media (min-width: 800px) {
     p {
       font-size: 18px;
       line-height: 1.6;
@@ -172,16 +172,16 @@ a {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0; }
-
+  
 .btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
-  background-color: transparent; }
+  color: white;
+  border: 1px solid #452259;
+  background-color: 452259; }
   .btn-default:focus, .btn-default:hover {
-    color: black;
-    border: 1px solid #42DCA3;
+    color: 452259;
+    border: 1px solid #452259;
     outline: none;
-    background-color: #42DCA3; }
+    background-color: #white; }
 
 ul.banner-social-buttons {
   margin-top: 0; }
