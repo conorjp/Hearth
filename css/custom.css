@@ -5,6 +5,22 @@
 	width: 350px;
 }
 
+.icon-and-text {
+	display: flex;
+	margin: 10px;
+	align-content: center;
+}
+
+.next-to-icon {
+	text-align: left;
+	width: 500px;
+}
+
+.icon-box {
+	width: 10em;
+	text-align: center;
+}
+
 .input-group {
     display: flex;
 }
