@@ -2,7 +2,9 @@
  * Hearth Website Custom Formatting
  */
 #ventImage {
-	width: 350px;
+	width: 100%;
+	margin-top: -80px;
+	margin-bottom: -80px;
 }
 
 .icon-and-text {
