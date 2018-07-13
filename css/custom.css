@@ -15,6 +15,12 @@
 	width: 80%;
 }
 
+#stickerGiant {
+	width:16%;
+	margin-right: 42%;
+	margin-left:42%;
+}
+
 
 .icon-and-text {
 	display: flex;
