@@ -23,14 +23,16 @@
 
 #comfy {
 	background-image: url("../img/home1.jpg");
-	/* background-size: 100%; */
 	background-size: contain;
 	background-repeat:no-repeat;
 }
 
+/* #simple {
+
+} */
+
 #smarter {
 	background-image: url("../img/home2.jpg");
-	/* background-size: 100%; */
 	background-size: contain;
 	background-repeat:no-repeat;
 }
