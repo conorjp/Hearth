@@ -21,16 +21,19 @@
 	margin-left:42%;
 }
 
-/* .icon-and-text {
-	display: flex;
-	margin: 10px;
-	align-content: center;
+#comfy {
+	background-image: url("../img/home1.jpg");
+	/* background-size: 100%; */
+	background-size: contain;
+	background-repeat:no-repeat;
 }
 
-.next-to-icon {
-	text-align: left;
-	width: 500px;
-} */
+#smarter {
+	background-image: url("../img/home2.jpg");
+	/* background-size: 100%; */
+	background-size: contain;
+	background-repeat:no-repeat;
+}
 
 .body-paragraph {
 	text-align: left;
