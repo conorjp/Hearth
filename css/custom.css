@@ -27,15 +27,45 @@
 	background-repeat:no-repeat;
 }
 
-/* #simple {
-
-} */
-
 #smarter {
 	background-image: url("../img/home2.jpg");
 	background-size: contain;
 	background-repeat:no-repeat;
 }
+
+@media only screen and (min-width:480px) {
+	#comfy{
+		background-size: 200%;
+	}
+	#smarter{
+		background-size: 200%;
+	}
+}
+@media only screen and (min-width:768px) {
+	#comfy{
+		background-size: 150%;
+	}
+	#smarter{
+		background-size: 150%;
+	}
+}
+@media only screen and (min-width:960px) {
+	#comfy{
+		background-size: 100%;
+	}
+	#smarter{
+		background-size: 100%;
+	}
+}
+@media only screen and (max-width:480px){
+	/* styles for mobile browsers smaller than 480px; (iPhone) */
+	#comfy{
+		background-size: 250%;
+	}
+	#smarter{
+		background-size: 250%;
+	}
+ }
 
 .body-paragraph {
 	text-align: left;
