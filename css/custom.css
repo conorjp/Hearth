@@ -27,6 +27,11 @@
 	background-repeat:no-repeat;
 }
 
+#screenshot {
+	width: 45%;
+	height: auto;
+}
+
 #smarter {
 	background-image: url("../img/home2.jpg");
 	background-size: contain;
